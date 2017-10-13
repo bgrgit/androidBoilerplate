@@ -77,12 +77,12 @@ Toast.makeText(this, "Network not connected", Toast.LENGTH_SHORT).show();
 
 In your activity
 ```java
-private ModalBottomSheetWithCustomLayout 
+private ModalBottomSheetWithCustomLayout mMdlBtmShtWithCustomLyt;
+
   @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-mMdlBtmShtWithCustomLyt;
          mMdlBtmShtWithCustomLyt = ModalBottomSheetWithCustomLayout.newInstance(getCustomViewForModalDialog());
         mMdlBtmShtWithCustomLyt.show(getSupportFragmentManager(), mMdlBtmShtWithCustomLyt.getTag());
         }
