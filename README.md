@@ -26,7 +26,13 @@ Add it in your build.gradle (dependencies)
 
 or Download via Maven
 
-
+```Maven
+<dependency>
+	    <groupId>com.github.bgrgit</groupId>
+	    <artifactId>androidBoilerplate</artifactId>
+	    <version>2.0</version>
+</dependency>
+ ```
 
 ### Usage
 
