@@ -4,7 +4,7 @@ Basic useful feature list:
 
  1. AlertDialog with one button and two button
  2. BottomSheet
- 3. Network Access state
+ 3. Access Network state
 
 ### Download
 
